@@ -1,0 +1,155 @@
+body {
+    background-color: #FAEBD7;
+}
+
+@font-face {
+    font-family: "Chicago";
+    src:
+        url("police/Chicago.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Wednesday";
+    src:
+        url("police/Wednesday.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Dinasty";
+    src:
+        url("police/Dinasty\ Personal\ Use.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Amarillo";
+    src:
+        url("police/Amarillo.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Hello Honey";
+    src:
+        url("police/hello\ honey.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Vogue";
+    src:
+        url("police/Vogue.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Cinzel Regular";
+    src:
+        url("police/Cinzel-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Argue";
+    src:
+        url("police/Argue.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Safira March";
+    src:
+        url("police/Safira\ March.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Brand";
+    src:
+        url("police/Brand.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Atlane";
+    src:
+        url("police/Atlane\ OTF.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Ethereal";
+    src:
+        url("police/Ethereal-Thin.otf") format("opentype");
+}
+
+
+header {
+    font-size: 40px;
+    font-family: 'Vogue';
+}
+
+/*.menu {
+    display: flex; 
+    justify-content: right;  
+    font-size: 17px; 
+    background-color: #FFF8DC;
+}
+
+.menu li {
+    display:block; 
+    min-width: 120px;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    text-align: center;
+    background-color: #FFF8DC; 
+    font-family: 'Cinzel Regular';
+    transition: all 1s ;
+    text-decoration: none;
+    
+}
+
+.menu li:hover {
+    background-color:#E9967A;
+    
+}*/
+
+h1{
+    text-align: center;
+    background-color: #FFF8DC;
+    font-family: 'Brand';
+}
+
+h4 {
+    font-family: 'Atlane';
+}
+
+.case {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    column-gap: 120px;
+    flex-direction: row;
+    align-self: center;
+}
+
+.case div {
+    display: block;
+    min-width: 120px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    box-orient: vertical;
+    background-color: #FFF8DC;
+    width: 200px;
+    height: 200px;  
+}
+
+.case div>p {
+    font-family: 'Ethereal';
+}
+
+
+.hobbie {
+    justify-content: center;
+}
+
+nav  ul li { float:left; list-style: none; }
+nav  ul ul {display:none; width:300px;}
+nav  li {background:#CCCCCC;}
+nav  li a {text-decoration: none; color: #000; padding: 4px 0 4px; display:block; width:300px;}
+nav  ul {padding: 0; margin:0px; text-align:center;}
+nav  ul.niveau1 li.sousmenu:hover ul.niveau2{display:block;}
+nav  li:hover {background: #EDD;}
+nav  li.sousmenu:hover {background: #EBB;}
