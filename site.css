@@ -140,6 +140,10 @@ h4 {
     font-family: 'Ethereal';
 }
 
+.case:hover{
+    background:#EBB;
+}
+
 
 .hobbie {
     justify-content: center;
@@ -153,3 +157,7 @@ nav  ul {padding: 0; margin:0px; text-align:center;}
 nav  ul.niveau1 li.sousmenu:hover ul.niveau2{display:block;}
 nav  li:hover {background: #EDD;}
 nav  li.sousmenu:hover {background: #EBB;}
+
+img{
+    size: 20px;
+}
