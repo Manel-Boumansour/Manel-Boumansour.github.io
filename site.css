@@ -2,7 +2,6 @@ body {
     background-color: #444440;
     /*color: #cbcbcb;*/
     color: #EDD;
-    text-decoration: "none";
 }
 
 @font-face {
@@ -80,7 +79,7 @@ p{
 h3{
     font-family: 'Skedaddle'; 
     font-size: 27px;
-    text-decoration: "none";
+    color: #EDD;
 }
 
 h4 {
@@ -322,6 +321,4 @@ h2{
     display: block;
     margin: auto;
     float: inline-start;
-    text-decoration: "none";
 }
-
