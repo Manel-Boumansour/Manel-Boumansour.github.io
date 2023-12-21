@@ -9,101 +9,36 @@ body {
     src:
         url("./ressources/police/Chicago.otf") format("opentype");
 }
-/*Pas libre de droit*/
-
-@font-face {
-    font-family: "Wednesday";
-    src:
-        url("./ressources/police/Wednesday.ttf") format("opentype");
-}
-/*Libre de droit*/
-
-
-@font-face {
-    font-family: "Dinasty";
-    src:
-        url("./ressources/police/Dinasty_Personal_Use.ttf") format("opentype");
-}
-/*Pas libre de droit*/
-
-@font-face {
-    font-family: "Amarillo";
-    src:
-        url("./ressources/police/Amarillo.ttf") format("opentype");
-}
 
 @font-face {
     font-family: "Hello Honey";
     src:
         url("./ressources/police/hello_honey.otf") format("opentype");
 }
-/*Pas libre de droit*/
+
+/*Libre de droit*/
 
 @font-face {
-    font-family: "Vogue";
+    font-family: "Gabrielle";
     src:
-        url("./ressources/police/Vogue.ttf") format("opentype");
+        url("./ressources/police/Gabrielle.ttf") format("opentype");
 }
-/*Pas libre de droit*/
+
+/*Libre de droit*/
 
 @font-face {
-    font-family: "Cinzel Regular";
+    font-family: "Nadall";
     src:
-        url("./ressources/police/Cinzel-Regular.otf") format("opentype");
-}
-/*Pas libre de droit*/
-
-@font-face {
-    font-family: "Argue";
-    src:
-        url("./ressources/police/Argue.otf") format("opentype");
-}
-/*Pas libre de droit*/
-
-@font-face {
-    font-family: "Safira March";
-    src:
-        url("./ressources/police/Safira\ March.otf") format("opentype");
-}
-/*Pas libre de droit*/
-
-@font-face {
-    font-family: "Brand";
-    src:
-        url("./ressources/police/Brand.otf") format("opentype");
+        url("./ressources/police/NADALL.TTF") format("opentype");
 }
 
-@font-face {
-    font-family: "Atlane";
-    src:
-        url("./ressources/police/Atlane\ OTF.otf") format("opentype");
-} 
-/*Pas libre de droit*/
 
-@font-face {
-    font-family: "Ethereal";
-    src:
-        url("./ressources/police/Ethereal-Thin.otf") format("opentype");
-}
-/*Pas libre de droit*/
-
-@font-face {
-    font-family: "Winter";
-    src:
-        url("./ressources/police/Winter\ Coffee.ttf") format("opentype");
-}
-
-header {
-    font-size: 40px;
-    font-family: 'Vogue';
-}
-
-/*Titre de page*/
+/*Titre de page
 .title{
     display: contents;
     align-content: center;
     text-align: center;
-}
+}*/
 
 /*h1{
     text-align: center;
@@ -115,8 +50,17 @@ header {
     position: absolute;
 }*/
 
+.description {
+    font-family: 'Gabrielle';
+}
+
+h1{
+    font-family: 'Nadall';
+    text-align: center;
+}
+
 h4 {
-    font-family: 'Wednesday';
+    font-family: 'Gabrielle';
 }
 
 .case {
@@ -171,6 +115,8 @@ nav  li a {
     padding: 4px 0 4px;
     display:block;
     width:268px;
+    font-family: 'Nadall';
+    font-size: 25px;
     
 }
 nav  ul {
@@ -229,6 +175,7 @@ img:hover {
 .box p {
     margin: 0;
     text-align: center;
+    font-family: 'Nadall';
 }
 
 /*Responsive design*/
@@ -309,7 +256,13 @@ img:hover {
     height : auto;
 }
 
-h5{
+h4{
     text-align: center;
+    font-family: 'Nadall';
+    font-size: 25px;
 }
 
+h2{
+    font-family: 'Nadall';
+    text-decoration: underline;
+}
