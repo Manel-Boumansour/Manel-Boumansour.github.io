@@ -127,6 +127,7 @@ nav  ul li {
 nav  ul ul {
     display:none;
     width:300px;
+    height : auto;
     position: fixed;
 }
 nav  li {
@@ -138,6 +139,7 @@ nav  li a {
     padding: 4px 0 4px;
     display:block;
     width:268px;
+    height : auto;
     font-family: 'Nadall';
     font-size: 25px;
     
@@ -185,6 +187,7 @@ img:hover {
 .accueil{
     text-align: center;
     line-height: 1.5;
+    height : auto;
 }
 
 /*Image d'accueil */
